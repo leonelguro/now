@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
   }
   .app-section .text-app {
     padding: 2rem;
@@ -69,6 +69,10 @@
 .navbar-brand {
   width: 150px;
   margin-left: 1rem;
+}
+
+.navbar {
+  background-color: #F7963F;
 }
 
 .navbar-nav {
