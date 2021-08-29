@@ -11,6 +11,7 @@
     padding: 2rem;
   }
   .app-section .text-app h2 {
+    font-size: 40px;
     padding-bottom: 1rem;
   }
   .app-section .text-app .app-link-wrap {
@@ -46,7 +47,7 @@
   }
   .app-section .text-app h2 {
     padding-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .app-section .text-app .app-link-wrap {
     display: flex;
@@ -54,17 +55,27 @@
     justify-content: right;
   }
   .app-section .text-app .app-link-wrap .app-link img {
-    width: 100px;
+    width: 120px;
     margin-right: 2rem;
   }
   .app-section .app-photo {
-    padding-top: 2rem;
-    padding-right: 20rem;
+    padding-top: 0rem;
+    padding-right: 12rem;
   }
   .app-section .app-photo img {
-    width: 250px;
+    width: 400px;
   }
 }
+.navbar-brand {
+  width: 100px;
+  margin-left: 1rem;
+}
+
+.nav-item {
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+
 * {
   margin: 0;
   padding: 0;
