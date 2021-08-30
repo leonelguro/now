@@ -8,7 +8,8 @@
     background-color: #ffffff;
   }
   .app-section .text-app {
-    padding: 2rem;
+    padding: 1rem;
+    margin: 1rem;
   }
   .app-section .text-app h2 {
     font-size: 40px;
@@ -47,7 +48,7 @@
   }
   .app-section .text-app h2 {
     padding-bottom: 2rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .app-section .text-app .app-link-wrap {
     display: flex;
