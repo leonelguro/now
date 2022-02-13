@@ -1,0 +1,133 @@
+@media (min-width: 320px) {
+  .experiences-section {
+    background-color: rgb(255, 255, 255);
+
+    .experiences-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .experiences-tittle {
+        h1 {
+          padding: 2rem;
+        }
+      }
+      .experiences-ul {
+        ul {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: row;
+          flex-wrap: wrap;
+          li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .circle-content {
+              display: flex;
+              justify-content: center;
+              width: 400px;
+              height: 400px;
+              -moz-border-radius: 50%;
+              -webkit-border-radius: 50%;
+              border-radius: 50%;
+              background: #5cb85c;
+              background-color: $dark-orange-color;
+              margin: 2rem;
+              .img-content {
+                position: relative;
+                max-width: 300px;
+                max-height: 400px;
+              }
+            }
+            .text-content {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+              .text-tittle {
+                text-align: center;
+              }
+              .text-icon {
+                i {
+                  width: 50px;
+                  height: 50px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// ----------------- Desktop ---------- //
+
+@media (min-width: 1200px) {
+  .experiences-section {
+    background-color: rgb(255, 255, 255);
+
+    .experiences-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .experiences-tittle {
+        h1 {
+          padding: 2rem;
+        }
+      }
+      .experiences-ul {
+        ul {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: row;
+          flex-wrap: wrap;
+          li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            flex-direction: column;
+            margin: 2rem;
+            .circle-content {
+              display: flex;
+              justify-content: center;
+              width: 400px;
+              height: 400px;
+              -moz-border-radius: 50%;
+              -webkit-border-radius: 50%;
+              border-radius: 50%;
+              background: #5cb85c;
+              background-color: $dark-orange-color;
+              margin: 2rem;
+              .img-content {
+                position: relative;
+                width: 300px;
+                height: 400px;
+              }
+            }
+            .text-content {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+              .text-tittle {
+                text-align: center;
+              }
+              .text-icon {
+                i {
+                  width: 50px;
+                  height: 50px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
