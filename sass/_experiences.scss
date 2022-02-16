@@ -9,13 +9,13 @@
       flex-direction: column;
       .experiences-tittle {
         h1 {
-          padding: 2rem;
+          padding: 4rem 3rem 2rem 3rem;
         }
       }
       .experiences-ul {
         ul {
           display: flex;
-          justify-content: space-between;
+          justify-content: center;
           align-items: center;
           flex-direction: row;
           flex-wrap: wrap;
@@ -37,8 +37,8 @@
               margin: 2rem;
               .img-content {
                 position: relative;
-                max-width: 300px;
-                max-height: 400px;
+                max-width: 285px;
+                max-height: 375px;
               }
             }
             .text-content {

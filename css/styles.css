@@ -113,11 +113,11 @@
     flex-direction: column;
   }
   .experiences-section .experiences-content .experiences-tittle h1 {
-    padding: 2rem;
+    padding: 4rem 3rem 2rem 3rem;
   }
   .experiences-section .experiences-content .experiences-ul ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -142,8 +142,8 @@
   }
   .experiences-section .experiences-content .experiences-ul ul li .circle-content .img-content {
     position: relative;
-    max-width: 300px;
-    max-height: 400px;
+    max-width: 285px;
+    max-height: 375px;
   }
   .experiences-section .experiences-content .experiences-ul ul li .text-content {
     display: flex;
