@@ -102,6 +102,121 @@
   border-color: white;
 }
 
+@media (min-width: 320px) {
+  .experiences-section {
+    background-color: white;
+  }
+  .experiences-section .experiences-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .experiences-section .experiences-content .experiences-tittle h1 {
+    padding: 4rem 3rem 2rem 3rem;
+  }
+  .experiences-section .experiences-content .experiences-ul ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .experiences-section .experiences-content .experiences-ul ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .experiences-section .experiences-content .experiences-ul ul li .circle-content {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+    background-color: #F7963F;
+    margin: 2rem;
+  }
+  .experiences-section .experiences-content .experiences-ul ul li .circle-content .img-content {
+    position: relative;
+    max-width: 285px;
+    max-height: 375px;
+  }
+  .experiences-section .experiences-content .experiences-ul ul li .text-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .experiences-section .experiences-content .experiences-ul ul li .text-content .text-tittle {
+    text-align: center;
+  }
+  .experiences-section .experiences-content .experiences-ul ul li .text-content .text-icon i {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .experiences-section {
+    background-color: white;
+  }
+  .experiences-section .experiences-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .experiences-section .experiences-content .experiences-tittle h1 {
+    padding: 2rem;
+  }
+  .experiences-section .experiences-content .experiences-ul ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .experiences-section .experiences-content .experiences-ul ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+  }
+  .experiences-section .experiences-content .experiences-ul ul li .circle-content {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+    background-color: #F7963F;
+    margin: 2rem;
+  }
+  .experiences-section .experiences-content .experiences-ul ul li .circle-content .img-content {
+    position: relative;
+    width: 300px;
+    height: 400px;
+  }
+  .experiences-section .experiences-content .experiences-ul ul li .text-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .experiences-section .experiences-content .experiences-ul ul li .text-content .text-tittle {
+    text-align: center;
+  }
+  .experiences-section .experiences-content .experiences-ul ul li .text-content .text-icon i {
+    width: 50px;
+    height: 50px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
